@@ -1,0 +1,12 @@
+MONDAY VERSION CHANGES
+- Switched fact content from using divs inside index.html to using innerHTML inside index.js
+- Removed starheader div inside index.html (leftover from javascript experiments)
+- Changed world text switching to innerHTML
+- Added "text-align: justify;" to textbox div to make facts look cleaner
+- World changing has moved from clicking "world 1-1" to clicking the pipe (appropriate music also plays)
+- Split 10 facts between the 2 worlds
+- Fixed background and header placements: they are now centered
+- Fixed fact box placement, size, and appearance
+- Fixed placement of mario and star
+- Added Mushroom to world 1-2 (also removes star when transitioning)
+- Coins x 0 now say Facts x 10

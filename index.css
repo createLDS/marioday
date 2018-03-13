@@ -1,0 +1,174 @@
+/* Main card */
+
+body {
+    font-family: 'Press Start 2P', cursive;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+#maincard {
+    background-image: url(img/Background.svg);
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 675px;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    transition: 0.25s;
+}
+
+/* FACT BOX */
+
+#textboxcontainer {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#textbox {
+    background-color: white;
+    width: 800px;
+    max-height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    padding: 20px;
+    line-height: 1.2;
+    z-index: 2;
+    display: none;
+    text-align: justify;
+    border-style: double;
+    border-width: 6px;
+}
+
+
+/* HEADER */
+
+#header {
+    color: white;
+    width: 1200px;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#title {
+    display: inline-block;
+}
+
+#coins {
+    display: inline-block;
+    text-align: center;
+    margin-left: 10vw;
+}
+
+#world {
+    display: inline-block;
+    text-align: center;
+    margin-left: 8vw;   
+}
+
+#world2 {
+    display: none;
+    text-align: center;
+    margin-left: 8vw;   
+}
+
+#time {
+    display: inline-block;
+    text-align: center;
+    margin-left: 8vw;   
+}
+
+/* MARIO */
+
+#mario {
+    position: fixed;
+    width: 150px;
+    height: 50px;
+    top: 400px;
+    left: 80px;
+    margin-left: 60%;
+    margin-right: 20%;
+    display: inline-block;
+}
+
+/* ITEMS */
+
+#ground {
+	display: inline-block;
+	position: relative;
+}
+
+#star {
+      width: 80px;
+	  top: 320px;
+      left: 60px;
+      position: fixed;
+	  margin-left: 60%;
+	  margin-right: 20%;
+	  z-index: 2;
+    display: block;
+}
+
+#mushroom {
+      width: 80px;
+	  top: 540px;
+      left: 20px;
+      position: fixed;
+	  margin-left: 60%;
+	  margin-right: 20%;
+	  z-index: 2;
+      display: none;
+}
+
+#pipe {
+      width: 150px;
+	  height: 50px;
+	  margin-left: 5%;
+	  margin-right: 95%;
+	  margin-top: 3%;
+	  position: fixed;
+      display: block;
+}
+
+#pipe2 {
+      width: 150px;
+	  height: 50px;
+	  margin-left: 10%;
+	  margin-right: 90%;
+	  margin-top: 3%;
+	  position: fixed;
+      display: none;
+}
+
+/* BLOCKS */
+
+
+#blocks {
+    width: 1200px;
+    margin-top: 220px;
+    margin-bottom: 25px;
+    padding-left: 22.5%;
+    display: block;
+}
+
+#blocks2 {
+    width: 1200px;
+    margin-top: 220px;
+    margin-bottom: 25px;
+    padding-left: 31%;
+    display: none;
+}
+
+#block1, #block2, #block3, #block4, #block5, #block6, #block7, #block8, #block9, #block10 {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
